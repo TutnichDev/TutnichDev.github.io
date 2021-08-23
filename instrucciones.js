@@ -58,7 +58,7 @@ var chanchiX = 0;
 var chanchiY = 0;
 
 var polloX = aleatorio(xmin,xmax);
-//console.log(polloX);
+console.log("gilada" & polloX);
 var polloY = aleatorio(xmin,xmax);
 //console.log(polloY);
 
@@ -132,6 +132,7 @@ function aleatorio(xMin , xMax)
 {
     var nAleatorio = Math.round((Math.random()*(xMax-xMin)))+xMin;
     return(nAleatorio);
+    console.log("devuelve:" & nAleatorio)
 }
 
 function chanchitoVe(estado) 
